@@ -23,22 +23,26 @@ export default function MobileRouteMenu() {
         <Menu />
       </DrawerTrigger>
       <DrawerContent className="h-full rounded-none glassmorphism text-zinc-500 outline-none">
-        <div className="mt-4 flex flex-col gap-4 px-8 h-full">
-          <Logo variant="text" />
-          <ul className="space-y-4 mt-4">
+        <div className="mt-4 flex flex-col h-full">
+          <div className="flex justify-center px-8">
+            <Logo width={180} height={36} />
+          </div>
+
+          <ul className="mt-8 space-y-4 px-8 flex-1">
             {NavBarRoutes.map((route) => (
               <li
+                key={getKey('mobile-menu', route.route)}
                 className={twMerge(
-                  'ml-2',
+                  'ml-2 text-lg',
                   currentPathname === route.route && 'text-primary'
                 )}
-                key={getKey(route.name)}
               >
                 <a href={route.route}>{commonTrans(route.name)}</a>
               </li>
             ))}
           </ul>
-          <DrawerFooter>
+
+          <DrawerFooter className="px-8 pb-8">
             <DrawerClose>
               <Button className="w-full text-red-500" variant="outline">
                 {commonTrans('Close')}

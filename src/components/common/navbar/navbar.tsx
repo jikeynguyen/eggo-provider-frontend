@@ -32,12 +32,16 @@ const Routes = () => {
 
 export const NavBar = () => {
   return (
-    <nav className="sticky navbar top-0 w-full h-[var(--navbar-height)] flex items-center z-50 justify-between">
-      <div className="lg:hidden">
-        <MobileRouteMenu />
+    <nav className="sticky top-0 w-full h-[var(--navbar-height)] flex items-center justify-between px-4 z-50">
+      <div className="flex items-center gap-4">
+        <Logo size={64} />
+        <div className="lg:hidden">
+          <MobileRouteMenu />
+        </div>
       </div>
-      <Logo />
+
       <Routes />
+
       <Avatar>
         <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
         <AvatarFallback>CN</AvatarFallback>
