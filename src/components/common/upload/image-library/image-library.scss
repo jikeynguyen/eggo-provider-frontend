@@ -1,0 +1,15 @@
+.ant-upload-list.ant-upload-list-picture-card {
+  .ant-upload.ant-upload-select {
+    order: -1;
+  }
+}
+
+.ant-upload-list-item.ant-upload-list-item-done {
+  border: none !important;
+}
+
+.ant-image-preview-mask,
+.ant-image-preview-close,
+.ant-image-preview-operations {
+  pointer-events: all !important;
+}

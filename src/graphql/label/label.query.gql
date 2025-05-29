@@ -1,0 +1,11 @@
+query PaginateLabels($options: PaginateLabelOptions!) {
+  paginateLabels(options: $options) {
+    total
+    items {
+      id
+      name
+      code
+      description
+    }
+  }
+}

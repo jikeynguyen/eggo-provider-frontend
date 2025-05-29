@@ -1,0 +1,18 @@
+query PaginatePlaygroundUnits(
+  $relations: [String!]
+  $options: PaginatePlaygroundUnitOptions
+) {
+  paginatePlaygroundUnits(relations: $relations, options: $options) {
+    items {
+      id
+      capacity
+      defaultPrice
+      name
+      labels {
+        id
+        name
+      }
+    }
+    total
+  }
+}

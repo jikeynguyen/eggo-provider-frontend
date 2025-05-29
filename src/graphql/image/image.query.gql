@@ -1,0 +1,10 @@
+query PaginateImages($options: PaginateImageOptions!) {
+  paginateImages(options: $options) {
+    items {
+      id
+      filename
+      variants
+    }
+    total
+  }
+}

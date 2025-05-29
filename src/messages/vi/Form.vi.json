@@ -1,0 +1,117 @@
+{
+  "Login": {
+    "Description": "Đăng nhập vào tài khoản của bạn",
+    "Email": {
+      "Label": "Email",
+      "Placeholder": "example@gmail.com"
+    },
+    "ForgotPassword": "Quên mật khẩu?",
+    "Password": {
+      "Label": "Mật khẩu",
+      "Placeholder": "********"
+    },
+    "Phone": {
+      "Label": "Số điện thoại",
+      "Placeholder": "0912345678"
+    },
+    "Register": "Đăng ký tài khoản mới",
+    "Submit": "Đăng nhập",
+    "Title": "Đăng nhập"
+  },
+  "Playground": {
+    "Address": {
+      "Label": "Địa chỉ",
+      "Placeholder": "123 Đường ABC, Quận XYZ, TP HCM"
+    },
+    "AddressInputMode": {
+      "Confirm": "Vui lòng click vào bản đồ vị trí chính xác của sân chơi.",
+      "Search": "Nhập địa chỉ của sân chơi.",
+      "SeeOnMap": "Xem địa điểm trên Google Maps",
+      "Select": "Chọn địa chỉ trong danh sách bên dưới."
+    },
+    "Capacity": {
+      "Description": "Số người tối đa có thể chơi sân này",
+      "Label": "Sức chứa",
+      "Placeholder": "10",
+      "Unit": "người"
+    },
+    "Close": {
+      "Label": "Giờ đóng cửa",
+      "Placeholder": "00:00"
+    },
+    "DefaultPrice": {
+      "Description": "Giá mặc định cho mỗi đơn vị thời gian",
+      "Label": "Giá mặc định",
+      "Placeholder": "100000",
+      "Unit": "VNĐ"
+    },
+    "Name": {
+      "Label": "Tên sân chơi",
+      "Placeholder": "EGGO"
+    },
+    "Open": {
+      "Label": "Giờ mở cửa",
+      "Placeholder": "00:00"
+    },
+    "OpenDate": {
+      "Label": "Ngày mở cửa"
+    },
+    "Phone": {
+      "Label": "Số điện thoại",
+      "Placeholder": "000-000-0000"
+    },
+    "PickLocation": "Chọn vị trí sân chơi",
+    "PickLocationDescription": "Vui lòng tìm địa chỉ sau đó nhấn vào bản đồ để chọn vị trí chính xác của sân chơi.",
+    "TimeSlotUnit": {
+      "Description": "Đơn vị thời gian nhỏ nhất mà khách có thể đặt sân",
+      "Label": "Đơn vị thời gian nhỏ nhất",
+      "Placeholder": "30",
+      "Unit": "phút"
+    },
+    "Type": {
+      "Label": "Loại sân",
+      "Placeholder": "bóng đá, bóng rổ, bida, ...",
+      "PlaygroundType": {
+        "BADMINTON": "Cầu lông",
+        "BASKETBALL": "Bóng rổ",
+        "BILLIARD": "Bida",
+        "PICKLEBALL": "Pickleball",
+        "SOCCER": "Bóng đá",
+        "TABLE_TENNIS": "Bóng bàn",
+        "TENNIS": "Quần vợt",
+        "VOLLEYBALL": "Bóng chuyền"
+      }
+    }
+  },
+  "Register": {
+    "ConfirmPassword": {
+      "Label": "Xác nhận mật khẩu"
+    },
+    "Description": "Đăng ký tài khoản mới",
+    "Email": {
+      "Label": "Email",
+      "Placeholder": "nguyenvana@gmail.com"
+    },
+    "FirstName": {
+      "Label": "Tên",
+      "Placeholder": "Nguyễn"
+    },
+    "LastName": {
+      "Label": "Họ",
+      "Placeholder": "Văn A"
+    },
+    "Password": {
+      "Label": "Mật khẩu"
+    },
+    "Phone": {
+      "Label": "Số điện thoại",
+      "Placeholder": "0912345678"
+    },
+    "Submit": "Đăng ký",
+    "Title": "Đăng ký"
+  },
+  "UploadImageLibrary": {
+    "Description": "Tất cả ảnh sẽ được hiển thị trong bộ sưu tập của bạn.",
+    "Title": "Tải ảnh lên"
+  }
+}

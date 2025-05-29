@@ -1,0 +1,9 @@
+mutation CreatePlayground($input: CreatePlaygroundInput!) {
+  createPlayground(input: $input) {
+    id
+    createdAt
+    name
+    address
+    phone
+  }
+}

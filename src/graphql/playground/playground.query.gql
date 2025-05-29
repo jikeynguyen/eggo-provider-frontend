@@ -1,0 +1,40 @@
+query PlaygroundDetail($playgroundId: Float!, $relations: [String!]) {
+  playground(id: $playgroundId, relations: $relations) {
+    id
+    location {
+      coordinates
+    }
+    coverImg {
+      id
+      variants
+    }
+    closeHour
+    address
+    name
+    openDates
+    openHour
+    phone
+    timeSlotUnit
+    type
+  }
+}
+query PaginatePlaygrounds(
+  $options: PaginatePlaygroundOptions!
+  $relations: [String!]
+) {
+  paginatePlaygrounds(options: $options, relations: $relations) {
+    items {
+      id
+      coverImg {
+        variants
+        id
+      }
+      type
+      name
+      closeHour
+      address
+      openHour
+    }
+    total
+  }
+}

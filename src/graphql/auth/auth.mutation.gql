@@ -1,0 +1,11 @@
+mutation RegisterProvider($registerProviderInput: CreateProviderInput!) {
+  registerProvider(registerProviderInput: $registerProviderInput) {
+    id
+  }
+}
+
+mutation LoginProvider($email: String!, $password: String!) {
+  loginProvider(email: $email, password: $password) {
+    id
+  }
+}

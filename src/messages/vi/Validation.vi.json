@@ -1,0 +1,64 @@
+{
+  "Address": {
+    "MaxLength": "Địa chỉ tối đa {{number}} ký tự",
+    "MinLength": "Địa chỉ ít nhất {{number}} ký tự",
+    "Required": "Địa chỉ không được để trống"
+  },
+  "BillingInfo": {
+    "RequiredAccountHolder": "Tên chủ tài khoản không được để trống",
+    "RequiredAccountNumber": "Số tài khoản không được để trống",
+    "RequiredAccountNumberFromTo": "Số tài khoản từ {{from}} đến {{to}} ký tự",
+    "RequiredBank": "Ngân hàng không được để trống"
+  },
+  "ConfirmPassword": {
+    "Mismatch": "Mật khẩu không trùng khớp",
+    "Required": "Xác nhận mật khẩu không được để trống"
+  },
+  "Email": {
+    "Invalid": "Email không hơp lệ",
+    "Required": "Email không được để trống"
+  },
+  "FirstName": {
+    "MaxLength": "Tên tối đa {{number}} ký tự",
+    "MinLength": "Tên ít nhất {{number}} ký tự",
+    "Required": "Tên không được để trống"
+  },
+  "LastName": {
+    "MaxLength": "Họ tối đa {{number}} ký tự",
+    "MinLength": "Họ ít nhất {{number}} ký tự",
+    "Required": "Họ không được để trống"
+  },
+  "Name": {
+    "MaxLength": "Tên tối đa {{number}} ký tự",
+    "MinLength": "Tên ít nhất {{number}} ký tự",
+    "Required": "Tên không được để trống"
+  },
+  "Password": {
+    "MaxLength": "Mật khẩu tối đa {{number}} ký tự",
+    "MinLength": "Mật khẩu ít nhất {{number}} ký tự",
+    "Mismatch": "Mật khẩu không trùng khớp",
+    "Required": "Mật khẩu không được để trống"
+  },
+  "Phone": {
+    "Invalid": "Số điện thoại không hợp lệ",
+    "Required": "Số điện thoại không được để trống"
+  },
+  "Playground": {
+    "OpenClose": {
+      "FromSmallerThanTo": "Thời gian bắt đầu phải nhỏ hơn thời gian kết thúc",
+      "Required": "Thời gian không được để trống"
+    },
+    "Name": {
+      "MaxLength": "Tên sân tối đa {{number}} ký tự",
+      "MinLength": "Tên sân ít nhất {{number}} ký tự",
+      "Required": "Tên sân không được để trống"
+    },
+    "OpenDate": {
+      "Required": "Ngày mở cửa không được để trống"
+    }
+  },
+  "Price": {
+    "Min": "Giá ít nhất {{number}}",
+    "Required": "Giá không được để trống"
+  }
+}

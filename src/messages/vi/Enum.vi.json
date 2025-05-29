@@ -1,0 +1,24 @@
+{
+  "ADMIN": "Admin",
+  "AVAILABLE": "Sẵn sàng",
+  "BASIC": "Cơ bản",
+  "CASHIER": "Thu ngân",
+  "CHEF": "Đầu bếp",
+  "DateOfWeek": {
+    "0": "CN",
+    "1": "T2",
+    "2": "T3",
+    "3": "T4",
+    "4": "T5",
+    "5": "T6",
+    "6": "T7"
+  },
+  "ENTERPRISE": "Doanh nghiệp",
+  "FREE": "Miễn phí",
+  "MANAGER": "Quản lý",
+  "PENDING": "Đang xử lý",
+  "PERCENT": "Phần trăm",
+  "PREMIUM": "Cao cấp",
+  "PRO": "Chuyên nghiệp",
+  "SUPERVISOR": "Giám sát viên"
+}

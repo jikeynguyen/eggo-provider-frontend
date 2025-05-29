@@ -1,0 +1,9 @@
+mutation CreatePlaygroundUnit($input: CreatePlaygroundUnitInput!) {
+  createPlaygroundUnit(input: $input) {
+    id
+  }
+}
+
+mutation BulkCreatePlaygroundUnits($input: BulkCreatePlaygroundUnitInput!) {
+  bulkCreatePlaygroundUnits(input: $input)
+}

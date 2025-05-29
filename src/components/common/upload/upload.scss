@@ -1,0 +1,47 @@
+.upload-cover-image {
+  .ant-upload.ant-upload-select,
+  .ant-upload,
+  .ant-upload-list.ant-upload-list-picture-card,
+  .ant-upload-list-item-container,
+  .ant-upload-list-item-thumbnail {
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 0 !important;
+    border: none !important;
+    box-shadow: none; // added to disable shadow
+    margin: 0 !important;
+  }
+
+  .ant-upload-list-item-container {
+    background-color: transparent !important;
+    margin-block: 0 !important;
+    margin-inline: 0 !important;
+    .ant-upload-list-item.ant-upload-list-item-undefined,
+    .ant-upload-list-item.ant-upload-list-item-done {
+      padding: 0 !important;
+      border-radius: 0 !important;
+      border: none !important;
+      box-shadow: none; // added to disable shadow
+      background-color: transparent !important;
+      &::before {
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+  }
+
+  .ant-upload-list-item-actions {
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    .anticon.anticon-eye {
+      vertical-align: middle;
+    }
+  }
+}
+
+.ant-upload-list-item-image {
+  object-fit: cover !important;
+}

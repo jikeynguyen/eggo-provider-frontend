@@ -1,0 +1,44 @@
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.pink-radial-gradient {
+  background: radial-gradient(circle, #f84995, transparent 60%);
+}
+
+.blue-radial-gradient {
+  background: radial-gradient(circle, #0029ff, transparent 60%);
+}
+
+/* Hide google map info  */
+a[href^="http://maps.google.com/maps"]
+{
+  display: none !important;
+}
+a[href^="https://maps.google.com/maps"]
+{
+  display: none !important;
+}
+
+.gmnoprint a,
+.gmnoprint span,
+.gm-style-cc {
+  display: none;
+}
+.gmnoprint div {
+  background: none !important;
+}
+
+.gm-style div {
+  border: none !important;
+}
+
+.ant-select-dropdown {
+  pointer-events: auto !important;
+}

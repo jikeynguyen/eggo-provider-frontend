@@ -1,0 +1,9 @@
+query MeProvider {
+  meProvider {
+    firstName
+    billingPlan
+    jwt
+    id
+    lastName
+  }
+}

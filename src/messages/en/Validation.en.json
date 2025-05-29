@@ -1,0 +1,64 @@
+{
+  "Address": {
+    "MaxLength": "Address must be at most {{number}} characters",
+    "MinLength": "Address must be at least {{number}} characters",
+    "Required": "Address is required"
+  },
+  "BillingInfo": {
+    "RequiredAccountHolder": "Account holder is required",
+    "RequiredAccountNumber": "Account number is required",
+    "RequiredAccountNumberFromTo": "Account number from {{from}} to {{to}} characters",
+    "RequiredBank": "Bank is required"
+  },
+  "ConfirmPassword": {
+    "Mismatch": "Passwords are mismatch",
+    "Required": "Confirm password is required"
+  },
+  "Email": {
+    "Invalid": "Email is invalid",
+    "Required": "Email is required"
+  },
+  "FirstName": {
+    "MaxLength": "First Name must be at most {{number}} characters",
+    "MinLength": "First Name must be at least {{number}} characters",
+    "Required": "First Name is required"
+  },
+  "LastName": {
+    "MaxLength": "Last Name must be at most {{number}} characters",
+    "MinLength": "Last Name must be at least {{number}} characters",
+    "Required": "Last Name is required"
+  },
+  "Name": {
+    "MaxLength": "Name must be at most {{number}} characters",
+    "MinLength": "Name must be at least {{number}} characters",
+    "Required": "Name is required"
+  },
+  "Password": {
+    "MaxLength": "Password must be at most {{number}} characters",
+    "MinLength": "Password must be at least {{number}} characters",
+    "Mismatch": "Passwords are mismatch",
+    "Required": "Password is required"
+  },
+  "Phone": {
+    "Invalid": "Phone number is invalid",
+    "Required": "Phone number is required"
+  },
+  "Playground": {
+    "OpenClose": {
+      "FromSmallerThanTo": "From must be smaller than To",
+      "Required": "From and To are required"
+    },
+    "Name": {
+      "MaxLength": "Playground name must be at most {{number}} characters",
+      "MinLength": "Playground name must be at least {{number}} characters",
+      "Required": "Playground name is required"
+    },
+    "OpenDate": {
+      "Required": "Open date is required"
+    }
+  },
+  "Price": {
+    "Min": "Price must be at least {{number}}",
+    "Required": "Price is required"
+  }
+}

@@ -1,0 +1,7 @@
+mutation uploadImage($file: Upload!) {
+  uploadSingle(file: $file) {
+    id
+    variants
+    filename
+  }
+}

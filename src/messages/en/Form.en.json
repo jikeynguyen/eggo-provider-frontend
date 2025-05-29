@@ -1,0 +1,115 @@
+{
+  "Login": {
+    "Description": "Enter your information.",
+    "Email": {
+      "Label": "Email",
+      "Placeholder": "example@gmail.com"
+    },
+    "ForgotPassword": "Forgot Password?",
+    "Password": {
+      "Label": "Password",
+      "Placeholder": "********"
+    },
+    "Phone": {
+      "Label": "Phone Number",
+      "Placeholder": "000-000-0000"
+    },
+    "RegisterNow": "Sign up now",
+    "Submit": "Login",
+    "Title": "Login"
+  },
+  "Playground": {
+    "Address": {
+      "Label": "Address",
+      "Placeholder": "1234 Main St, City, State, Zip"
+    },
+    "AddressInputMode": {
+      "Confirm": "Please click on the map to select the exact location of your playground.",
+      "Search": "Enter the address of the playground.",
+      "SeeOnMap": "View location on Google Maps",
+      "Select": "Select an address from the list below."
+    },
+    "Capacity": {
+      "Description": "How many people can play at the same time?",
+      "Label": "Capacity",
+      "Placeholder": "10",
+      "Unit": "people"
+    },
+    "Close": {
+      "Label": "Close Time",
+      "Placeholder": "00:00"
+    },
+    "DefaultPrice": {
+      "Label": "Default Price",
+      "Placeholder": "100000",
+      "Unit": "VND"
+    },
+    "Name": {
+      "Label": "Playground Name",
+      "Placeholder": "EGGO"
+    },
+    "Open": {
+      "Label": "Open Time",
+      "Placeholder": "00:00"
+    },
+    "OpenDate": {
+      "Label": "Open date"
+    },
+    "Phone": {
+      "Label": "Phone Number",
+      "Placeholder": "000-000-0000"
+    },
+    "PickLocation": "Pick Location",
+    "PickLocationDescription": "Input your address in input box then click on map to locate playground.",
+    "TimeSlotUnit": {
+      "Description": "How long is the smallest interval of time that can be booked?",
+      "Label": "Unit time slot duration",
+      "Placeholder": "30",
+      "Unit": "minutes"
+    },
+    "Type": {
+      "Label": "Type",
+      "Options": {
+        "BADMINTON": "Badminton",
+        "BASKETBALL": "Basketball",
+        "BILLIARD": "Billiard",
+        "PICKLEBALL": "Pickleball",
+        "SOCCER": "Soccer",
+        "TABLE_TENNIS": "Table Tennis",
+        "TENNIS": "Tennis",
+        "VOLLEYBALL": "Volleyball"
+      }
+    }
+  },
+  "Register": {
+    "ConfirmPassword": {
+      "Label": "Confirm Password"
+    },
+    "Description": "Complete your information.",
+    "Email": {
+      "Label": "Email",
+      "Placeholder": "example@gmail.com"
+    },
+    "FirstName": {
+      "Label": "First Name",
+      "Placeholder": "John"
+    },
+    "LastName": {
+      "Label": "Last Name",
+      "Placeholder": "Doe"
+    },
+    "Password": {
+      "Label": "Password"
+    },
+    "Phone": {
+      "Label": "Phone Number",
+      "Placeholder": "000-000-0000"
+    },
+    "Submit": "Register",
+    "Title": "Register"
+  },
+  "UploadImageLibrary": {
+    "Description": "Upload images of your playground.",
+    "Title": "Upload Image Gallery"
+  }
+}
